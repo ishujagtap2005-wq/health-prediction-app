@@ -1,2 +1,27 @@
-# health-prediction-app
-Developed a Health Prediction Web Application using Streamlit and Machine Learning techniques.  Implemented data preprocessing, model training using Scikit-learn, and integrated SQLite database for storing records.  Built an interactive UI for real-time predictions.
+
+# Health Prediction App
+
+This is a Machine Learning + Streamlit web application that predicts health-related outcomes based on patient data.
+
+---
+
+# Features
+- User-friendly web interface using Streamlit
+- Patient data storage (SQLite database)
+- Machine Learning based prediction
+- Real-time results
+
+---
+
+# Tech Stack
+- Python
+- Streamlit
+- Pandas, NumPy
+- Scikit-learn
+- SQLite
+
+---
+
+# How to Run the Project
+
+1. Install dependencies:
