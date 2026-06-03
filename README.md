@@ -1,27 +1,25 @@
 
-# Health Prediction App
+# Health Prediction Application
 
-This is a Machine Learning + Streamlit web application that predicts health-related outcomes based on patient data.
-
----
-
-# Features
-- User-friendly web interface using Streamlit
-- Patient data storage (SQLite database)
-- Machine Learning based prediction
-- Real-time results
-
----
-
-# Tech Stack
+Tech Stack:
 - Python
 - Streamlit
-- Pandas, NumPy
-- Scikit-learn
 - SQLite
+- OpenRouter AI API (optional)
 
----
+Features:
+- CRUD Operations
+- Input Validation
+- SQLite Storage
+- AI-generated Health Remarks
+- GitHub-ready structure
 
-# How to Run the Project
+Run:
 
-1. Install dependencies:
+1. pip install -r requirements.txt
+2. streamlit run app.py
+
+Optional API:
+Create .env or environment variable:
+
+OPENROUTER_API_KEY=your_api_key
